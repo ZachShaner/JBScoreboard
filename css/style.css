@@ -1,0 +1,57 @@
+@font-face {
+    font-family: Gamecuben;
+    src: URL('GameCube.ttf') format('truetype');
+}
+
+.body {
+    overflow: hidden;
+}
+
+.container {
+    display: grid;
+    color: white;
+    font-family: Gamecuben;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: 270px 270px 270px 270px 270px 270px 270px;
+    grid-template-rows: 100px;
+}
+
+.p1name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p2score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    2
+}
+
+/*.p1 {
+    position: absolute;
+    font-size: 30px;
+    font-family: Gamecuben;
+    display: inline;
+    top: 13px;
+    left: 750px;
+}
+
+.Sponsor {
+    color: #7B55D8;
+}
+*/
