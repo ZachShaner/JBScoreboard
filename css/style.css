@@ -1,57 +1,108 @@
 @font-face {
     font-family: Gamecuben;
-    src: URL('GameCube.ttf') format('truetype');
+    src: URL('/fonts/GameCube.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Gameplay;
+    src: URL('/fonts/Gameplay.ttf') format('truetype');
 }
 
 .body {
     overflow: hidden;
+    width: 1920px;
+    background-size: auto auto;
 }
 
 .container {
+    position: absolute;
     display: grid;
     color: white;
     font-family: Gamecuben;
     text-align: center;
     justify-content: center;
-    grid-template-columns: 270px 270px 270px 270px 270px 270px 270px;
+    grid-template-columns: 1920px;
     grid-template-rows: 100px;
 }
 
 .p1name {
+    position: absolute;
     display: flex;
+    font-size: 32px;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: 53px;
+    left: 355px;
+    top: 27px;
+    /* background-color: aqua; */
+    /* opacity: 0.5; */
 }
 
 .p1score {
+    position: absolute;
     display: flex;
+    font-family: Gameplay;
+    font-size: 34px;
     justify-content: center;
     align-items: center;
+    width: 50px;
+    height: 53px;
+    left: 782px;
+    top: 30px;
+    /* background-color: aqua; */
+    /* opacity: .5; */
 }
 
 .p2name {
+    position: absolute;
     display: flex;
+    font-size: 32px;
     justify-content: center;
     align-items: center;
+    width: 400px;
+    height: 53px;
+    right: 370px;
+    top: 27px;
 }
 
 .p2score {
+    position: absolute;
     display: flex;
+    font-family: Gameplay;
+    font-size: 34px;
     justify-content: center;
     align-items: center;
-    2
+    width: 50px;
+    height: 53px;
+    right: 800px;
+    top: 30px;
 }
-
-/*.p1 {
+.sbgif{
     position: absolute;
-    font-size: 30px;
-    font-family: Gamecuben;
-    display: inline;
-    top: 13px;
-    left: 750px;
+    top: 0;
+    left: 0;
+}
+.round{
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    top: -32px;
+    left: 50%; 
+    transform: translateX(-50%);
+}
+.bo{
+    color: white;
+    position: absolute;
+    top: 75px;
+    left: 50%; 
+    transform: translateX(-50%);
 }
 
-.Sponsor {
-    color: #7B55D8;
+.sponsor {
+    background-image: linear-gradient(to right, #E08FFF, #BDAEFF);
+    color: transparent;
+    -webkit-background-clip: text;
+     background-clip: text;
+    /* color: #7955D9;#E08FFF */
 }
-*/
