@@ -14,7 +14,7 @@
     background-size: auto auto;
 }
 
-.container {
+.TopScoreboard {
     position: absolute;
     display: grid;
     color: white;
@@ -78,24 +78,27 @@
     right: 800px;
     top: 30px;
 }
-.sbgif{
+
+.sbgif {
     position: absolute;
     top: 0;
     left: 0;
 }
-.round{
+
+.round {
     color: white;
     position: absolute;
     font-size: 24px;
     top: -32px;
-    left: 50%; 
+    left: 50%;
     transform: translateX(-50%);
 }
-.bo{
+
+.bo {
     color: white;
     position: absolute;
     top: 75px;
-    left: 50%; 
+    left: 50%;
     transform: translateX(-50%);
 }
 
@@ -103,6 +106,6 @@
     background-image: linear-gradient(to right, #E08FFF, #BDAEFF);
     color: transparent;
     -webkit-background-clip: text;
-     background-clip: text;
+    background-clip: text;
     /* color: #7955D9;#E08FFF */
 }

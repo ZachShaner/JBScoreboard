@@ -10,17 +10,19 @@
 </head>
 
 <body>
-    <img class = "sbgif" src="img/MO.gif" alt="">
+    <img class="sbgif" src="img/MO.gif" alt="">
 
-    <div class="container">
-        <div class="p1name"><span class="sponsor">iluz </span>&nbsp;epic gabriel</div>
-        <div class="p1score">0</div>
-        <div class="p2name"><span class="sponsor">liquid </span>&nbsp;dabuz</div>
-        <div class="p2score">0</div>
+    <div class="TopScoreboard" id="app">
+        <div class="p1name"><span class="sponsor">{{p1Sponsor}} </span>&nbsp;{{p1Name}}</div>
+        <div class="p1score">{{p1Score}}</div>
+        <div class="p2name"><span class="sponsor">{{p2Sponsor}} </span>&nbsp;{{p2Name}}</div>
+        <div class="p2score">{{p2Score}}</div>
         <p class="round">grand final</p>
         <p class="bo">best of five</p>
     </div>
 
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
